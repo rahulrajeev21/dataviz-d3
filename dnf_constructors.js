@@ -10,7 +10,7 @@ d3.json("dnf_constructors.json").then(data => {
         .append('g')
         .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
-    const color = d3.scaleOrdinal(["#1b70fc", "#faff16", "#d50527", "#158940", "#f898fd", "#24c9d7", "#cb9b64",
+    const color = d3.scaleOrdinal().range(["#1b70fc", "#faff16", "#d50527", "#158940", "#f898fd", "#24c9d7", "#cb9b64",
         "#866888", "#22e67a", "#e509ae", "#9dabfa", "#437e8a", "#b21bff", "#ff7b91", "#94aa05", "#ac5906", "#82a68d",
         "#fe6616", "#7a7352", "#f9bc0f", "#b65d66", "#07a2e6", "#c091ae", "#8a91a7", "#88fc07", "#ea42fe", "#9e8010",
         "#10b437", "#1b70fc", "#faff16", "#d50527", "#158940", "#f898fd", "#24c9d7", "#cb9b64", "#866888", "#22e67a",
@@ -53,40 +53,36 @@ d3.json("dnf_constructors.json").then(data => {
             });
     }
 
-    // select legend
+// keys for legend
+    var legendKeys = ["Accident", "Brakes", "Collision", "Disqualified", "Drivetrain","Electrical",
+        "Engine","ERS","Front wing","Gearbox","Hydraulics","Mechanical","Power Unit","Rear wing",
+        "Retired","Spun off","Suspension","Transmission","Turbo"]
+
+    update("all");
+
+// select legend
     var legend = d3.select("#legend")
 
-// Add one dot in the legend for each name.
-    legend.selectAll("mydots")
+// colors
+    legend.selectAll("legendColors")
         .data(color.domain())
         .enter()
         .append("circle")
         .attr("cx", 100)
-        .attr("cy", function (d, i) {
-            return 100 + i * 25
-        }) // 100 is where the first dot appears. 25 is the distance between dots
+        .attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
         .attr("r", 7)
-        .style("fill", function (d) {
-            return color(d)
-        })
+        .style("fill", function(d){ return color(d)})
 
-// Add one dot in the legend for each name.
-    legend.selectAll("mylabels")
-        .data(color.domain())
+// labels
+    legend.selectAll("legendLabels")
+        .data(legendKeys)
         .enter()
         .append("text")
         .attr("x", 120)
-        .attr("y", function (d, i) {
-            return 100 + i * 25
-        }) // 100 is where the first dot appears. 25 is the distance between dots
-        .style("fill", function (d) {
-            return color(d)
-        })
-        .text(function (d) {
-            return d
-        })
+        .attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+        .style("fill", "white")
+        .text(function(d){ return d})
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
 
-    update("all");
 });
