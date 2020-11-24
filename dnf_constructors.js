@@ -61,7 +61,7 @@ d3.json("dnf_constructors.json").then(data => {
     update("all");
 
 // select legend
-    var legend = d3.select("#legend")
+    var legend = d3.select("#donutlegend")
 
 // colors
     legend.selectAll("legendColors")
