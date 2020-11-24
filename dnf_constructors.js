@@ -3,7 +3,7 @@ d3.json("dnf_constructors.json").then(data => {
     const height = 360;
     const radius = Math.min(width, height) / 2;
 
-    const svg = d3.select("#chart-area")
+    const svg = d3.select("#dnfbyconstructor")
         .append("svg")
         .attr("width", width + 100)
         .attr("height", height + 50)

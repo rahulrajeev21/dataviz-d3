@@ -52,7 +52,7 @@
             <ul>
                 <li class="active"><a href="#header">Home</a></li>
                 <li><a href="#constructorDNF">DNF by Constructor</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#dnfradar">DNF Analysis - Canadian GP</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -72,7 +72,7 @@
             <p>DNF Cases (2007-2017)</p>
         </div>
 
-        <div id="chart-area">
+        <div id="dnfbyconstructor">
             <form>
                 <label><input type="radio" name="dataset" value="all" checked> All Constructors</label>
                 <label><input type="radio" name="dataset" value="caterham"> Caterham</label>
@@ -102,13 +102,81 @@
 </section><!-- End DNF by Constructor Section -->
 
 <!-- ======= Resume Section ======= -->
-<section id="resume" class="resume">
+<section id="dnfradar" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume</h2>
-            <p>Check My Resume</p>
+            <h2>DNF Analysis</h2>
+            <p>Canadian GP vs Total</p>
         </div>
+
+    <div class="radarChart"></div>
+    <script src="radarChart.js"></script>
+    <script>
+        //////////////////////////////////////////////////////////////
+        //////////////////////// Set-Up //////////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var margin = { top: 50, right: 80, bottom: 50, left: 80 },
+            width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
+            height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
+
+        //////////////////////////////////////////////////////////////
+        ////////////////////////// Data //////////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var data = [
+            { name: 'DNF - Canadian GP',
+                axes: [
+                    {axis: 'Accident', value: 70},
+                    {axis: 'Brakes', value: 13},
+                    {axis: 'Collision', value: 44},
+                    {axis: 'Electrical', value: 9},
+                    {axis: 'Engine', value: 100},
+                    {axis: 'Gearbox', value: 47},
+                    {axis: 'Spun off', value: 53},
+                    {axis: 'Suspension', value: 12},
+                    {axis: 'Transmission', value: 15},
+                    {axis: 'Turbo', value: 1}
+                ]
+            },
+            { name: 'DNF - All',
+                axes: [
+                    {axis: 'Accident', value: 47},
+                    {axis: 'Brakes', value: 5},
+                    {axis: 'Collision', value: 38},
+                    {axis: 'Electrical', value: 11},
+                    {axis: 'Engine', value: 100},
+                    {axis: 'Gearbox', value: 38},
+                    {axis: 'Spun off', value: 38},
+                    {axis: 'Suspension', value: 17},
+                    {axis: 'Transmission', value: 8},
+                    {axis: 'Turbo', value: 1}
+                ]
+            }
+        ];
+
+        //////////////////////////////////////////////////////////////
+        ///// Second example /////////////////////////////////////////
+        ///// Chart legend, custom color, custom unit, etc. //////////
+        //////////////////////////////////////////////////////////////
+        var radarChartParams = {
+            w: 350,
+            h: 350,
+            margin: margin,
+            maxValue: 60,
+            levels: 6,
+            roundStrokes: true,
+            color: d3.scaleOrdinal().range(["crimson", "royalblue"]),
+            format: '.0f',
+            legend: { title: 'DNF - Canadian GP vs Total', translateX: 100, translateY: 40 },
+            unit: ''
+        };
+
+        // Draw the chart, get a reference the created svg element :
+        let dnf_CGP_total = RadarChart(".radarChart", data, radarChartParams);
+    </script>
     </div>
+
 </section><!-- End Resume Section -->
 
 <!-- ======= Services Section ======= -->
