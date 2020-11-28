@@ -3,10 +3,10 @@ var dnfCause = {
     "data": {
         "url": "dnfCauseComparison.csv"
     },
-    "width": 400,
-    "height": 300,
     "layer": [
         {
+            "width": 800,
+            "height": 300,
             "encoding": {
                 "x": {"field": "dnf", "type": "nominal"},
                 "y": {"field": "count", "type": "quantitative"},

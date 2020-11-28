@@ -1,12 +1,11 @@
-var accidentRatingBar = {
+var pitstopViz = {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "data": {"url": "pitstops.json"},
-    "width": 400,
-    "height": 200,
-    "vconcat": [{
-        "selection": {
-            "brush": {"type": "interval"}
-        },
+    "data": {"url": "pitstops.csv"},
+    "hconcat": [
+    {
+        "width": 400,
+        "height": 400,
+        "selection": {"brush": {"type": "interval"}},
         "mark": "point",
         "encoding": {
             "x": {
@@ -17,15 +16,20 @@ var accidentRatingBar = {
                 "field": "PitstopMs", "type": "quantitative"
             }
         }
-    }, {
-        "transform": [
-            {"filter": {"selection": "brush"}}
-        ],
+    },
+    {
+        "width": 400,
+        "height": 400,
+        "transform": [{"filter": {"selection": "brush"}}],
         "mark": "line",
         "encoding": {
             "x": {"field": "Points", "type": "quantitative"},
             "y": {"field": "Position", "type": "quantitative","sort":"descending"}
         }
-    }]
+    }
+]
 }
-vegaEmbed('#concatviz', accidentRatingBar);
+
+var opt = {config:"config_quartz.json"}
+
+vegaEmbed('#pitstopViz', pitstopViz,opt);
