@@ -89,6 +89,6 @@ var dnfCause = {
     ]
 }
 
+var opt = {config:"config_urban.json"}
 
-
-vegaEmbed('#dnfCauseComparison', dnfCause);
+vegaEmbed('#dnfCauseComparison', dnfCause,opt);
