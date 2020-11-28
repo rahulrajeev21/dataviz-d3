@@ -15,7 +15,6 @@ var accidentRatingBar = {
             },
             "y": {
                 "field": "PitstopMs", "type": "quantitative"
-                // "scale": {"domain": [0, 500]}
             }
         }
     }, {

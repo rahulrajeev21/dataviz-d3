@@ -1,0 +1,1172 @@
+{
+  "constructor":"all","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 11
+    },
+    {
+      "dnf": "Brakes",
+      "count": 4
+    },
+    {
+      "dnf": "Collision",
+      "count": 12
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 2
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 1
+    },
+    {
+      "dnf": "Electrical",
+      "count": 1
+    },
+    {
+      "dnf": "Engine",
+      "count": 2
+    },
+    {
+      "dnf": "ERS",
+      "count": 1
+    },
+    {
+      "dnf": "Front wing",
+      "count": 1
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 3
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 1
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 1
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 4
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 2
+    },
+    {
+      "dnf": "Retired",
+      "count": 5
+    },
+    {
+      "dnf": "Spun off",
+      "count": 2
+    },
+    {
+      "dnf": "Suspension",
+      "count": 3
+    },
+    {
+      "dnf": "Transmission",
+      "count": 1
+    },
+    {
+      "dnf": "Turbo",
+      "count": 1
+    }
+  ],
+  "constructor":"caterham","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 1
+    }
+  ],
+  "constructor":"ferrari","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 12
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 2
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"forceIndia","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 3
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 2
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"hrt","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 1
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"lotus","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 4
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 1
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"marussia","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 3
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"mercedes","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 2
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"rbr","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 1
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"renault","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 4
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"sauber","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 2
+    },
+    {
+      "dnf": "ERS",
+      "count": 1
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"spyker","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 1
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"toroRosso","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 1
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"virgin","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 0
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 1
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 0
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ],
+  "constructor":"williams","dnfcases": [
+    {
+      "dnf": "Accident",
+      "count": 11
+    },
+    {
+      "dnf": "Brakes",
+      "count": 0
+    },
+    {
+      "dnf": "Collision",
+      "count": 0
+    },
+    {
+      "dnf": "Disqualified",
+      "count": 0
+    },
+    {
+      "dnf": "Drivetrain",
+      "count": 0
+    },
+    {
+      "dnf": "Electrical",
+      "count": 0
+    },
+    {
+      "dnf": "Engine",
+      "count": 0
+    },
+    {
+      "dnf": "ERS",
+      "count": 0
+    },
+    {
+      "dnf": "Front wing",
+      "count": 0
+    },
+    {
+      "dnf": "Gearbox",
+      "count": 0
+    },
+    {
+      "dnf": "Hydraulics",
+      "count": 0
+    },
+    {
+      "dnf": "Mechanical",
+      "count": 0
+    },
+    {
+      "dnf": "Power Unit",
+      "count": 0
+    },
+    {
+      "dnf": "Rear wing",
+      "count": 0
+    },
+    {
+      "dnf": "Retired",
+      "count": 5
+    },
+    {
+      "dnf": "Spun off",
+      "count": 0
+    },
+    {
+      "dnf": "Suspension",
+      "count": 0
+    },
+    {
+      "dnf": "Transmission",
+      "count": 0
+    },
+    {
+      "dnf": "Turbo",
+      "count": 0
+    }
+  ]
+}
