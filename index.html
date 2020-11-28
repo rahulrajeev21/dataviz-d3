@@ -1,234 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
     <title>CMPT767 Project - Rahul Rajeev</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-          rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- D3 script file -->
-    <script src="//d3js.org/d3.v5.min.js"></script>
-
-    <!-- =======================================================
-    * Template Name: Personal - v2.4.0
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-</head>
-
-<body>
-
-<!-- ======= Header ======= -->
-<header id="header" class="header-tops">
-    <div class="container">
-        <h1><a href="index.html">Formula One</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-        <h2>DNF <span>Visualizations</span> CMPT767</h2>
-
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="active"><a href="#header">Home</a></li>
-                <li><a href="#constructorDNF">DNF by Constructor</a></li>
-                <li><a href="#dnfradar">DNF Analysis - Canadian GP</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav><!-- .nav-menu -->
-    </div>
-</header><!-- End Header -->
-
-<!-- ======= DNF by Constructor ======= -->
-<section id="constructorDNF" class="about">
-
-    <!-- ======= DNF Donut Chart ======= -->
-    <div class="about-me container">
-
-        <div class="section-title">
-            <h2>F1 Canadian Grand Prix</h2>
-            <p>DNF Cases (2007-2017)</p>
-        </div>
-
-        <div id="dnfbyconstructor">
-            <form>
-                <label><input type="radio" name="dataset" value="all" checked> All Constructors</label>
-                <label><input type="radio" name="dataset" value="caterham"> Caterham</label>
-                <label><input type="radio" name="dataset" value="ferrari"> Ferrari</label>
-                <label><input type="radio" name="dataset" value="forceIndia"> Force India</label>
-                <label><input type="radio" name="dataset" value="hrt"> HRT</label>
-                <label><input type="radio" name="dataset" value="lotus"> Lotus</label>
-                <label><input type="radio" name="dataset" value="marussia"> Marussia</label>
-                <label><input type="radio" name="dataset" value="mercedes"> Mercedes Benz</label>
-                <label><input type="radio" name="dataset" value="rbr"> Red Bull</label>
-                <label><input type="radio" name="dataset" value="renault"> Renault</label>
-                <label><input type="radio" name="dataset" value="sauber"> Sauber</label>
-                <label><input type="radio" name="dataset" value="spyker"> Spyker</label>
-                <label><input type="radio" name="dataset" value="toroRosso"> Toro Rosso</label>
-                <label><input type="radio" name="dataset" value="virgin"> Virgin</label>
-                <label><input type="radio" name="dataset" value="williams"> Williams</label>
-            </form>
-        </div>
-
-        <div>
-            <svg id="donutlegend" height=600 width=450></svg>
-        </div>
-
-        <script src="dnf_constructors.js"></script>
-
-    </div>
-</section><!-- End DNF by Constructor Section -->
-
-<!-- ======= Resume Section ======= -->
-<section id="dnfradar" class="resume">
-    <div class="container">
-        <div class="section-title">
-            <h2>DNF Analysis</h2>
-            <p>Canadian GP vs Total</p>
-        </div>
-
-    <div class="radarChart"></div>
-    <script src="radarChart.js"></script>
-    <script>
-        //////////////////////////////////////////////////////////////
-        //////////////////////// Set-Up //////////////////////////////
-        //////////////////////////////////////////////////////////////
-
-        var margin = { top: 50, right: 80, bottom: 50, left: 80 },
-            width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
-            height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
-
-        //////////////////////////////////////////////////////////////
-        ////////////////////////// Data //////////////////////////////
-        //////////////////////////////////////////////////////////////
-
-        var data = [
-            { name: 'DNF - Canadian GP',
-                axes: [
-                    {axis: 'Accident', value: 70},
-                    {axis: 'Brakes', value: 13},
-                    {axis: 'Collision', value: 44},
-                    {axis: 'Electrical', value: 9},
-                    {axis: 'Engine', value: 100},
-                    {axis: 'Gearbox', value: 47},
-                    {axis: 'Spun off', value: 53},
-                    {axis: 'Suspension', value: 12},
-                    {axis: 'Transmission', value: 15},
-                    {axis: 'Turbo', value: 1}
-                ]
-            },
-            { name: 'DNF - All',
-                axes: [
-                    {axis: 'Accident', value: 47},
-                    {axis: 'Brakes', value: 5},
-                    {axis: 'Collision', value: 38},
-                    {axis: 'Electrical', value: 11},
-                    {axis: 'Engine', value: 100},
-                    {axis: 'Gearbox', value: 38},
-                    {axis: 'Spun off', value: 38},
-                    {axis: 'Suspension', value: 17},
-                    {axis: 'Transmission', value: 8},
-                    {axis: 'Turbo', value: 1}
-                ]
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
             }
-        ];
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="mainstyles.css" rel="stylesheet">
 
-        //////////////////////////////////////////////////////////////
-        ///// Second example /////////////////////////////////////////
-        ///// Chart legend, custom color, custom unit, etc. //////////
-        //////////////////////////////////////////////////////////////
-        var radarChartParams = {
-            w: 350,
-            h: 350,
-            margin: margin,
-            maxValue: 60,
-            levels: 6,
-            roundStrokes: true,
-            color: d3.scaleOrdinal().range(["crimson", "royalblue"]),
-            format: '.0f',
-            legend: { title: 'DNF - Canadian GP vs Total', translateX: 100, translateY: 40 },
-            unit: ''
-        };
+    <!-- Vega-Lite scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
-        // Draw the chart, get a reference the created svg element :
-        let dnf_CGP_total = RadarChart(".radarChart", data, radarChartParams);
-    </script>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Formula One DNF Analysis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<main role="main" class="container">
+
+
+    <div class="starter-template">
+        <div id="dnfbyyear"></div>
+        <script src="dnfbyyear.js"></script>
+<!--        <div id="radar"></div>
+        <script src="radarChart.js"></script>-->
+        <div id="dnfCauseComparison"></div>
+        <script src="dnfCauseComparison.js"></script>
+        <div id="concatviz"></div>
+        <script src="concatviz.js"></script>
+    </div>
     </div>
 
-</section><!-- End Resume Section -->
+</main><!-- /.container -->
 
-<!-- ======= Services Section ======= -->
-<section id="services" class="services">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Services</h2>
-            <p>My Services</p>
-        </div>
-
-    </div>
-</section><!-- End Services Section -->
-
-<!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Portfolio</h2>
-            <p>My Works</p>
-        </div>
-    </div>
-</section><!-- End Portfolio Section -->
-
-<!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Formula One</h2>
-            <p>DNF Cases</p>
-        </div>
-
-    </div>
-</section><!-- End Contact Section -->
-
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/counterup.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
 
 </body>
-
 </html>

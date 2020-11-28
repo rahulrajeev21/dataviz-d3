@@ -1,0 +1,21 @@
+race,dnf,count
+CanadianGP,Accident,70
+CanadianGP,Brakes,13
+CanadianGP,Collision,44
+CanadianGP,Electrical,9
+CanadianGP,Engine,100
+CanadianGP,Gearbox,47
+CanadianGP,Spun off,53
+CanadianGP,Suspension,12
+CanadianGP,Transmission,15
+CanadianGP,Turbo,1
+All,Accident,47
+All,Brakes,5
+All,Collision,38
+All,Electrical,11
+All,Engine,100
+All,Gearbox,38
+All,Spun off,38
+All,Suspension,17
+All,Transmission,8
+All,Turbo,1

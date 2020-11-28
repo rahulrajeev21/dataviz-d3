@@ -1,0 +1,102 @@
+[
+    {
+        "key": "Accident",
+        "value": 70,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Brakes",
+        "value": 13,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Collision",
+        "value": 44,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Electrical",
+        "value": 9,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Engine",
+        "value": 100,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Gearbox",
+        "value": 47,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Spun off",
+        "value": 53,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Suspension",
+        "value": 12,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Transmission",
+        "value": 15,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Turbo",
+        "value": 1,
+        "race": "CanadianGP"
+    },
+    {
+        "key": "Accident",
+        "value": 47,
+        "race": "All"
+    },
+    {
+        "key": "Brakes",
+        "value": 5,
+        "race": "All"
+    },
+    {
+        "key": "Collision",
+        "value": 38,
+        "race": "All"
+    },
+    {
+        "key": "Electrical",
+        "value": 11,
+        "race": "All"
+    },
+    {
+        "key": "Engine",
+        "value": 100,
+        "race": "All"
+    },
+    {
+        "key": "Gearbox",
+        "value": 38,
+        "race": "All"
+    },
+    {
+        "key": "Spun off",
+        "value": 38,
+        "race": "All"
+    },
+    {
+        "key": "Suspension",
+        "value": 17,
+        "race": "All"
+    },
+    {
+        "key": "Transmission",
+        "value": 8,
+        "race": "All"
+    },
+    {
+        "key": "Turbo",
+        "value": 1,
+        "race": "All"
+    }
+]
