@@ -5,9 +5,15 @@ var dnfplot = {
 },
     "width": 600,
     "height": 400,
-    "transform": [
+/*    "transform": [
     {"filter": "datum.Constructor !== 'All natural disasters'"}
-],
+],*/
+
+    "selection": {
+        "grid": {
+            "type": "interval", "bind": "scales"
+        }
+    },
     "mark": {
     "type": "circle",
         "opacity": 0.8,
