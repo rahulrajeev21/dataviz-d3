@@ -101,7 +101,8 @@
             </p>
             <div id="ctorselect">
               <label for="constrselect">Choose constructor:</label>
-              <select onchange="getSelectedConstructor()" name="constructors" id="constrselect">
+              <div class="dropdown dropdown-dark">
+              <select onchange="getSelectedConstructor()" name="constructors" id="constrselect" class="dropdown-select">
                 <option value="all">all</option>
                 <option value="caterham">caterham</option>
                 <option value="ferrari">ferrari</option>
@@ -118,6 +119,7 @@
                 <option value="virgin">virgin</option>
                 <option value="williams">williams</option>
               </select>
+              </div>
               <script src="dnf_constr_jsondata.js"></script>
             </div>
 
@@ -199,5 +201,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
