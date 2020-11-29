@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #38e08c;
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #d9ba85;
+  color: #38e08c;
   padding-right: 4px;
 }
 
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #d9ba85;
+  color: #38e08c;
 }
 
 .nav-menu .book-a-table a {
