@@ -6,14 +6,15 @@ var pitstopViz = {
             "width": 1000,
             "height": 300,
             "selection": {"brush": {"type": "interval"}},
-            "mark": "point",
+            "mark": "circle",
+            "tooltip":true,
             "encoding": {
                 "x": {
                     "field": "Laps", "type": "quantitative",
-                    "scale": {"domain": [10, 70]}
+                    "scale": {"domain": [1, 75]},"axis": {"grid": false,"labelFontSize":15,"tickSize":7,"titleFontSize":15}
                 },
                 "y": {
-                    "field": "PitstopMs", "type": "quantitative"
+                    "field": "PitstopMs", "type": "quantitative","axis": {"grid": true,"labelFontSize":15,"tickSize":7,"titleFontSize":15,"title":"Pitstop Duration (in milliseconds)"}
                 }
             }
         },
@@ -22,9 +23,10 @@ var pitstopViz = {
             "height": 300,
             "transform": [{"filter": {"selection": "brush"}}],
             "mark": "line",
+            "tooltip":true,
             "encoding": {
-                "x": {"field": "Points", "type": "quantitative"},
-                "y": {"field": "Position", "type": "quantitative", "sort": "descending"}
+                "x": {"field": "Points", "type": "quantitative","axis": {"grid": false,"labelFontSize":15,"tickSize":7,"titleFontSize":15}},
+                "y": {"field": "Position", "type": "quantitative", "sort": "descending","axis": {"grid": true,"labelFontSize":15,"tickSize":7,"titleFontSize":15}}
             }
         }
     ]

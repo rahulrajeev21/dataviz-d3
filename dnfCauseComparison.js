@@ -8,8 +8,8 @@ var dnfCause = {
             "width": 1000,
             "height": 300,
             "encoding": {
-                "x": {"field": "dnf", "type": "nominal"},
-                "y": {"field": "count", "type": "quantitative"},
+                "x": {"field": "dnf", "type": "nominal","axis": {"labelFontSize":15,"tickSize":7,"titleFontSize":15,"title":"Cause of DNF"}},
+                "y": {"field": "count", "type": "quantitative","axis": {"labelFontSize":15,"tickSize":7,"titleFontSize":15,"Title":"DNF Count"}},
                 "color": {"field": "race", "type": "nominal"}
             },
             "layer": [
@@ -26,7 +26,7 @@ var dnfCause = {
                     "encoding": {
                         "opacity": {
                             "condition": {"selection": "gp", "value": 1},
-                            "value": 0.2
+                            "value": 0.4
                         }
                     }
                 },
@@ -71,7 +71,7 @@ var dnfCause = {
                             "mark": {
                                 "type": "text",
                                 "stroke": "white",
-                                "strokeWidth": 2,
+                                "strokeWidth": 3,
                                 "align": "left",
                                 "dx": 5,
                                 "dy": -5
@@ -80,7 +80,7 @@ var dnfCause = {
                         {
                             "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
                             "encoding": {
-                                "color": {"type": "nominal", "field": "race", "scale": {"scheme": "set1"},"legend":{"labelColor":"#979797","title":null}}
+                                "color": {"type": "nominal", "field": "race", "scale": {"scheme": "set1"},"legend":{"labelColor":"#979797","title":null,"symbolSize":700,"symbolType":"circle"}}
                             }
                         }
                     ]
