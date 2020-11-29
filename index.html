@@ -86,6 +86,32 @@
 
 
     <div class="starter-template">
+        <div id="ctorselect">
+            <label for="constrselect">Choose constructor:</label>
+            <select onchange="getSelectedConstructor()" name="constructors" id="constrselect">
+                <option value="all">all</option>
+                <option value="caterham">caterham</option>
+                <option value="ferrari">ferrari</option>
+                <option value="forceIndia">forceIndia</option>
+                <option value="hrt">hrt</option>
+                <option value="lotus">lotus</option>
+                <option value="marussia">marussia</option>
+                <option value="mercedes">mercedes</option>
+                <option value="rbr">rbr</option>
+                <option value="renault">renault</option>
+                <option value="sauber">sauber</option>
+                <option value="spyker">spyker</option>
+                <option value="toroRosso">toroRosso</option>
+                <option value="virgin">virgin</option>
+                <option value="williams">williams</option>
+            </select>
+
+            <script src="dnf_constr_jsondata.js"></script>
+        </div>
+
+
+        <div id = "dnfdistribution"></div>
+        <script src="dnfdistribution.js"></script>
         <div id="dnfbyyear"></div>
         <script src="dnfbyyear.js"></script>
         <div id="dnfCauseComparison"></div>

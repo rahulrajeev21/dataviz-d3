@@ -31,7 +31,7 @@ var dnfplot = {
             "field": "DNF",
             "type": "quantitative",
             "title": "DNF Cases",
-            "legend": {"clipHeight": 70},
+            "legend": null,
             "scale": {"rangeMax": 5000}
         },
         "color": {"field": "Constructor", "type": "nominal", "legend": null}
