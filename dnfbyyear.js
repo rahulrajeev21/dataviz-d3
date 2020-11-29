@@ -35,5 +35,5 @@ var dnfplot = {
     }
 }
 
-var opt = {config:"config_dark.json"}
-vegaEmbed('#dnfbyyear', dnfplot,opt);
+var opt = {config: "config_dark.json"}
+vegaEmbed('#dnfbyyear', dnfplot, opt);

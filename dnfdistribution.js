@@ -1,4 +1,5 @@
 var dnfdistrdataset;
+
 function getSelectedConstructor() {
     selectedConstructor = document.getElementById("constrselect").value;
     var dnf_constr_data = JSON.parse(dnf_constr_jsondata);
@@ -8,16 +9,18 @@ function getSelectedConstructor() {
     var dnfdistribution = {
         "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
         "description": "A simple radial chart with embedded data.",
-        "height":400,
-        "width":400,
+        "height": 400,
+        "width": 400,
         "data": {"values": dnfdistrdataset},
         "layer": [
-            {    "selection": {
+            {
+                "selection": {
                     "dnfcause": {
                         "type": "multi", "fields": ["dnf"], "bind": "legend"
                     }
                 },
-                "mark": {"type": "arc", "innerRadius": 30, "stroke": null}}
+                "mark": {"type": "arc", "innerRadius": 30, "stroke": null}
+            }
 
         ],
         "encoding": {
@@ -26,7 +29,11 @@ function getSelectedConstructor() {
                 "field": "count",
                 "scale": {"type": "sqrt", "zero": true, "rangeMin": 10}
             },
-            "color": {"field": "dnf", "type": "nominal","legend":{"title":"Cause of DNF", "orient":"right","direction":"vertical"}},
+            "color": {
+                "field": "dnf",
+                "type": "nominal",
+                "legend": {"title": "Cause of DNF", "orient": "right", "direction": "vertical"}
+            },
             "opacity": {
                 "condition": {"selection": "dnfcause", "value": 1},
                 "value": 0.1
@@ -35,7 +42,7 @@ function getSelectedConstructor() {
         "view": {"stroke": null}
     }
 
-var opt = {config:"config_dark.json"}
+    var opt = {config: "config_dark.json"}
 
-    vegaEmbed('#dnfdistribution', dnfdistribution,opt);
+    vegaEmbed('#dnfdistribution', dnfdistribution, opt);
 }

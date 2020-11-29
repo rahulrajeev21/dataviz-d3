@@ -28,7 +28,8 @@ var dnfCause = {
                             "condition": {"selection": "gp", "value": 1},
                             "value": 0.2
                         }
-                    }},
+                    }
+                },
 
                 {
                     "selection": {
@@ -79,7 +80,7 @@ var dnfCause = {
                         {
                             "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
                             "encoding": {
-                                "color": {"type": "nominal", "field": "race"}
+                                "color": {"type": "nominal", "field": "race", "scale": {"scheme": "set1"}}
                             }
                         }
                     ]
@@ -89,6 +90,6 @@ var dnfCause = {
     ]
 }
 
-var opt = {config:"config_dark.json"}
+var opt = {config: "config_dark.json"}
 
-vegaEmbed('#dnfCauseComparison', dnfCause,opt);
+vegaEmbed('#dnfCauseComparison', dnfCause, opt);
