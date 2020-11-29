@@ -5,7 +5,7 @@ var dnfCause = {
     },
     "layer": [
         {
-            "width": 800,
+            "width": 1000,
             "height": 300,
             "encoding": {
                 "x": {"field": "dnf", "type": "nominal"},
@@ -80,7 +80,7 @@ var dnfCause = {
                         {
                             "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
                             "encoding": {
-                                "color": {"type": "nominal", "field": "race", "scale": {"scheme": "set1"}}
+                                "color": {"type": "nominal", "field": "race", "scale": {"scheme": "set1"},"legend":{"labelColor":"#979797","title":null}}
                             }
                         }
                     ]
@@ -90,6 +90,6 @@ var dnfCause = {
     ]
 }
 
-var opt = {config: "config_dark.json"}
+var opt = {config: "config_quartz.json"}
 
 vegaEmbed('#dnfCauseComparison', dnfCause, opt);

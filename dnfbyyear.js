@@ -3,7 +3,7 @@ var dnfplot = {
     "data": {
         "url": "dnfbyyear.csv"
     },
-    "width": 800,
+    "width": 1000,
     "height": 400,
 
     "selection": {
@@ -14,16 +14,17 @@ var dnfplot = {
     "mark": {
         "type": "circle",
         "opacity": 0.8,
-        "stroke": "black",
-        "strokeWidth": 1
+        "stroke": null,
+        "strokeWidth": 1,
+        "tooltip":true
     },
     "encoding": {
         "x": {
             "field": "Year",
             "type": "temporal",
-            "axis": {"grid": false}
+            "axis": {"grid": false,"labelFontSize":15,"tickSize":7,"titleFontSize":15}
         },
-        "y": {"field": "Constructor", "type": "nominal", "axis": {"title": ""}},
+        "y": {"field": "Constructor", "type": "nominal", "axis": {"title": null},"axis": {"labelFontSize":15,"tickSize":7,"tickMinStep":3,"title":null}},
         "size": {
             "field": "DNF",
             "type": "quantitative",
@@ -35,5 +36,5 @@ var dnfplot = {
     }
 }
 
-var opt = {config: "config_dark.json"}
+var opt = {config: "config_quartz.json"}
 vegaEmbed('#dnfbyyear', dnfplot, opt);

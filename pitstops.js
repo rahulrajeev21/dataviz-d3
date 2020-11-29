@@ -1,10 +1,10 @@
 var pitstopViz = {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "data": {"url": "pitstops.csv"},
-    "hconcat": [
+    "vconcat": [
         {
-            "width": 400,
-            "height": 400,
+            "width": 1000,
+            "height": 300,
             "selection": {"brush": {"type": "interval"}},
             "mark": "point",
             "encoding": {
@@ -18,8 +18,8 @@ var pitstopViz = {
             }
         },
         {
-            "width": 400,
-            "height": 400,
+            "width": 1000,
+            "height": 300,
             "transform": [{"filter": {"selection": "brush"}}],
             "mark": "line",
             "encoding": {
@@ -30,6 +30,6 @@ var pitstopViz = {
     ]
 }
 
-var opt = {config: "config_dark.json"}
+var opt = {config: "config_quartz.json"}
 
 vegaEmbed('#pitstopViz', pitstopViz, opt);

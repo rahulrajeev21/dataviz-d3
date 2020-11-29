@@ -1,6 +1,6 @@
 {
-  "background": "#FFFFFF",
-  "title": {"anchor": "start", "fontSize": 18, "font": "Lato"},
+  "background": null,
+  "title": {"anchor": "start", "fontSize": 18, "font": "Lato","color": "#fff"},
   "axisX": {
     "domain": true,
     "domainColor": "#000000",
