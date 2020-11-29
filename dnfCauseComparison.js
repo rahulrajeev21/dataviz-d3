@@ -89,6 +89,6 @@ var dnfCause = {
     ]
 }
 
-var opt = {config:"config_urban.json"}
+var opt = {config:"config_dark.json"}
 
 vegaEmbed('#dnfCauseComparison', dnfCause,opt);

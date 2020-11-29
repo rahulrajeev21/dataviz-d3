@@ -30,6 +30,6 @@ var pitstopViz = {
 ]
 }
 
-var opt = {config:"config_quartz.json"}
+var opt = {config:"config_dark.json"}
 
 vegaEmbed('#pitstopViz', pitstopViz,opt);

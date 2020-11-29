@@ -5,9 +5,6 @@ var dnfplot = {
     },
     "width": 800,
     "height": 400,
-    /*    "transform": [
-        {"filter": "datum.Constructor !== 'All natural disasters'"}
-    ],*/
 
     "selection": {
         "grid": {
@@ -37,4 +34,6 @@ var dnfplot = {
         "color": {"field": "Constructor", "type": "nominal", "legend": null}
     }
 }
-vegaEmbed('#dnfbyyear', dnfplot);
+
+var opt = {config:"config_dark.json"}
+vegaEmbed('#dnfbyyear', dnfplot,opt);

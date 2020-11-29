@@ -17,7 +17,7 @@ function getSelectedConstructor() {
                         "type": "multi", "fields": ["dnf"], "bind": "legend"
                     }
                 },
-                "mark": {"type": "arc", "innerRadius": 30, "stroke": "#fff"}}
+                "mark": {"type": "arc", "innerRadius": 30, "stroke": null}}
 
         ],
         "encoding": {
@@ -35,7 +35,7 @@ function getSelectedConstructor() {
         "view": {"stroke": null}
     }
 
-// var opt = {config:"config_urban.json"}
+var opt = {config:"config_dark.json"}
 
-    vegaEmbed('#dnfdistribution', dnfdistribution);
+    vegaEmbed('#dnfdistribution', dnfdistribution,opt);
 }
