@@ -8,6 +8,8 @@ function getSelectedConstructor() {
     var dnfdistribution = {
         "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
         "description": "A simple radial chart with embedded data.",
+        "height":400,
+        "width":400,
         "data": {"values": dnfdistrdataset},
         "layer": [
             {    "selection": {
@@ -15,19 +17,19 @@ function getSelectedConstructor() {
                         "type": "multi", "fields": ["dnf"], "bind": "legend"
                     }
                 },
-                "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}},
+                "mark": {"type": "arc", "innerRadius": 30, "stroke": "#fff"}}
 
         ],
         "encoding": {
             "theta": {"field": "count", "type": "quantitative", "stack": true},
             "radius": {
                 "field": "count",
-                "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}
+                "scale": {"type": "sqrt", "zero": true, "rangeMin": 10}
             },
-            "color": {"field": "dnf", "type": "nominal","legend":{"title":"Cause of DNF", "orient":"bottom","direction":"horizontal"}},
+            "color": {"field": "dnf", "type": "nominal","legend":{"title":"Cause of DNF", "orient":"right","direction":"vertical"}},
             "opacity": {
                 "condition": {"selection": "dnfcause", "value": 1},
-                "value": 0.2
+                "value": 0.1
             }
         },
         "view": {"stroke": null}
