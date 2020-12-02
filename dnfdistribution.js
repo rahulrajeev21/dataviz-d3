@@ -31,6 +31,11 @@ function getSelectedConstructor() {
             "color": {
                 "field": "dnf",
                 "type": "nominal",
+                "scale": {
+                    "range": ["#399283", "#ff1c5d", "#34daea", "#984060", "#34f199", "#fe7dda", "#9bea30", "#9739d9",
+                        "#789d23", "#fe16f4", "#2cf52b", "#2d5da8", "#ead624", "#b2b2f9", "#995c1b", "#b5e0a4",
+                        "#cf4b15", "#19a71f", "#fab5b5", "#5e5e5e"]
+                },
                 "legend": {
                     "title": "Cause of DNF",
                     "titleColor": "#979797",
@@ -40,7 +45,7 @@ function getSelectedConstructor() {
                     "symbolSize": 300,
                     "symbolType": "circle",
                     "labelFontSize": 15,
-                    "rowPadding":7
+                    "rowPadding": 7
                 }
             },
             "opacity": {
